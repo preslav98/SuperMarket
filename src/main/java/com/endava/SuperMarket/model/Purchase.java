@@ -14,6 +14,7 @@ import java.util.List;
 @Setter
 @Getter
 @AllArgsConstructor
+@NoArgsConstructor
 public class Purchase extends BaseEntity{
 
     @Column(name = "supermarket_id")
